@@ -5,20 +5,23 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
-  <title>Countdown</title>
+  <title>Countdown / Contagem regressiva de dias</title>
 </head>
 <body>
   <script src="function.js"></script>
-  <h1>Countdown</h1> <img src="stopwatch.png" alt="">
-    <nav>
-      <label for="">Enter a date for the countdown:</label>
+    <nav class="grid grid-small">
+      <h1>Countdown / Contagem Regressiva</h1> <img src="countdown.png" alt="">
+      <br>
+      <label for="">Enter a date for the countdown / Digite a data para a contagem regressiva:</label>
       <br>
       <input type="date" id="date" placeholder="mm/dd/yyyy">
       <br><br>
-      <button onclick="calculateDays()">Count</button>
+      <button onclick="calculateDays()">COUNT</button>
       <br><br> 
       <input type="text" id="result">
-
+      <footer>
+        <p>&copy;2023 github@marinaarosa.</p>
+      </footer> 
     </nav>
 </body>
 </html>
